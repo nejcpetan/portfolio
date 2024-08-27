@@ -1,12 +1,14 @@
 import Image from "next/image";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import Hero from "./components/hero";
 
 export default function Home() {
   return (
-    <div>
-      <button
-  class="inline-block cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
-  Button
-</button>
-    </div>
+    <main>
+      <Navbar />
+      <Hero />
+      <Footer />
+    </main>
   );
 }
