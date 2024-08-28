@@ -7,9 +7,9 @@ export default function Hero() {
   // function([string1, string2], target id, [color1,color2])
   useEffect(() => {
     consoleText(
-      ["Nathan Petain.", "a Front End Developer.", "a System Administrator.", "a Gamer.", "a Fitness Enthusiast.", "a Food Lover."],
+      ["Nathan Petain.", "a Front End Developer.", "a System Administrator.", "a Gamer.", "a Fitness Enthusiast.", "a Food Lover.", "an AI Tinkerer."],
       "text",
-      ["tomato", "rebeccapurple", "lightblue", "tomato", "rebeccapurple", "lightblue"]
+      ["primary"]
     );
   }, []);
 
