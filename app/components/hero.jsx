@@ -32,7 +32,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="mb-8">
-          <h1 className="flex items-left text-xl md:text-2xl lg:text-4xl font-semibold space-x-2">
+          <h1 className="flex items-leggit a justify-center text-xl md:text-2xl lg:text-4xl font-semibold space-x-2">
           Bringing your ideas to life with stunning, unforgettable web experiences.
           </h1>
         </div>
