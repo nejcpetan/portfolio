@@ -7,24 +7,34 @@ export default function Hero() {
   // function([string1, string2], target id, [color1,color2])
   useEffect(() => {
     consoleText(
-      ["Front End Developer.", "System Administrator.", "Gamer."],
+      ["Nathan Petain.", "a Front End Developer.", "a System Administrator.", "a Gamer.", "a Fitness Enthusiast.", "a Food Lover."],
       "text",
-      ["tomato", "rebeccapurple", "lightblue"]
+      ["tomato", "rebeccapurple", "lightblue", "tomato", "rebeccapurple", "lightblue"]
     );
   }, []);
 
   return (
-    <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content text-center">
-        <div className="max-w-md">
-          <h1 className="text-5xl font-bold">Hello there</h1>
-          <div className="console-container">
-            <span id="text"></span>
-            <div className="console-underscore" id="console">
-              &#95;
-            </div>
+    <div className="hero bg-base-200 min-h-screen flex items-center justify-center">
+      <div className="text-center px-4">
+        {/* New greeting div */}
+        <div className="mb-8">
+          <h1 className="text-3xl lg:text-5xl font-bold">
+            Hello there, welcome to my portfolio!
+          </h1>
+        </div>
+
+        {/* Static text with animated text */}
+        <div className="flex items-center justify-center text-xl md:text-2xl lg:text-4xl font-semibold space-x-2">
+          <span>I'm</span>
+          <span id="text" className="text-primary"></span>
+          <div className="console-underscore" id="console">
+            &#95;
           </div>
-          
+        </div>
+        <div className="mb-8">
+          <h1 className="flex items-left text-xl md:text-2xl lg:text-4xl font-semibold space-x-2">
+          Bringing your ideas to life with stunning, unforgettable web experiences.
+          </h1>
         </div>
       </div>
     </div>
